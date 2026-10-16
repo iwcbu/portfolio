@@ -1,0 +1,3 @@
+export function Contact() {
+  return <main id="main" className="content-page page-width contact-page"><p className="eyebrow">Contact / 03</p><h1 className="page-title">Let's talk<span className="accent">.</span></h1><p className="page-lead">I'm interested in software engineering, backend development, and data engineering opportunities.</p><a className="contact-email" href="mailto:iwc3@outlook.com">iwc3@outlook.com ↗</a><div className="contact-links"><a href="https://github.com/iwcbu" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/iwc3/" target="_blank" rel="noreferrer">LinkedIn ↗</a>{/* Add /resume.pdf only after placing the current resume in public/. */}</div></main>;
+}
