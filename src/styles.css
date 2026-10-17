@@ -1817,16 +1817,20 @@ body {
 
 .current-work-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.45fr) minmax(280px, .75fr);
+  max-width: 90%;
+  padding-top:10px;
+  grid-template-columns: 1fr 1fr;
   gap: clamp(24px, 4vw, 46px);
   align-items: center;
   margin-top: 24px;
+  margin-left: clamp(18px, 2.5vw, 34px);
 }
 
 .current-project {
   gap: clamp(18px, 2.5vw, 28px);
   align-items: center;
   min-width: 0;
+  padding-left: clamp(24px, 4vw, 46px);
 }
 
 .project-icon.current-project-icon {
@@ -1883,7 +1887,7 @@ body {
 .coming-up {
   min-width: 0;
   border-left: 1px solid #526274;
-  padding-left: clamp(18px, 2.5vw, 28px);
+  padding-left: clamp(24px, 4vw, 46px);
 }
 
 .coming-up .eyebrow {
@@ -2005,6 +2009,11 @@ body {
 
   .current-work-grid {
     grid-template-columns: 1fr;
+  }
+
+  .current-project {
+    padding-left: 0;
+    margin-left: 0;
   }
 
   .coming-up {
